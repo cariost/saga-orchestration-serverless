@@ -2,11 +2,11 @@ name: 'TerraformCI'
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - iac/*
 
-      
+
 jobs:
   terraform:
     name: 'Terraform'
